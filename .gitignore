@@ -32,3 +32,8 @@ logs/
 *.swp
 *~
 .vscode/
+
+# Ensure all container roots are ignored even if renamed
+rootfs-*/
+# Ignore the Alpine tarball you just downloaded
+alpine-minirootfs-*.tar.gz
